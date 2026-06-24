@@ -6,7 +6,7 @@ import streamlit as st
 import plotly.express as px
 
 # Configuration premium de la page Streamlit
-st.set_page_config(page_title="FIFA World Cup 2026 - Ultimate Bracket AI", page_icon="🏆", layout="wide")
+st.set_page_config(page_title="FIFA World Cup 2026: AI Monte Carlo Simulation Engine", page_icon="🏆", layout="wide")
 
 # Dictionnaire des drapeaux pour une interface visuelle propre
 DRAPEAUX = {
@@ -324,7 +324,7 @@ class MasterTournamentBracketEngine:
 db_5 = collecter_donnees_5_piliers_web()
 engine_master = MasterTournamentBracketEngine(db_5)
 
-st.markdown("<h1 style='text-align: center; color: #00FFCC;'>🏆 MASTER BRACKET WORLD CUP PREDICTOR</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: #00FFCC;'>🏆 IFA WORLD CUP 2026: AI MONTE CARLO SIMULATION ENGINE</h1>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: center; font-size: 1.25em; color: #aaaaaa;'>Grille Officielle Symétrique FIFA 2026, Visualisation des Groupes & Synchronisation Totale</p>", unsafe_allow_html=True)
 st.write("---")
 
