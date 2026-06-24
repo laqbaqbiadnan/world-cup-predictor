@@ -324,7 +324,7 @@ class MasterTournamentBracketEngine:
 db_5 = collecter_donnees_5_piliers_web()
 engine_master = MasterTournamentBracketEngine(db_5)
 
-st.markdown("<h1 style='text-align: center; color: #00FFCC;'>🏆 IFA WORLD CUP 2026: AI MONTE CARLO SIMULATION ENGINE</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: #00FFCC;'>🏆 FIFA WORLD CUP 2026: AI MONTE CARLO SIMULATION ENGINE</h1>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: center; font-size: 1.25em; color: #aaaaaa;'>Grille Officielle Symétrique FIFA 2026, Visualisation des Groupes & Synchronisation Totale</p>", unsafe_allow_html=True)
 st.write("---")
 
